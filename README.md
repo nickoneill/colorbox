@@ -7,4 +7,4 @@ Features:
 * awesome table header setup hack in storyboards
 * autosize table cells with autolayout
 
-![preview]()
+![preview](https://raw.githubusercontent.com/nickoneill/colorbox/master/preview.png)
