@@ -12,6 +12,9 @@
 		D058411E1C878C410010F24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D058411C1C878C410010F24F /* Main.storyboard */; };
 		D05841201C878C410010F24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D058411F1C878C410010F24F /* Assets.xcassets */; };
 		D05841231C878C410010F24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05841211C878C410010F24F /* LaunchScreen.storyboard */; };
+		D058412B1C878E0D0010F24F /* ColorBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058412A1C878E0C0010F24F /* ColorBoxTableViewCell.swift */; };
+		D058412D1C8792290010F24F /* ColorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058412C1C8792290010F24F /* ColorClient.swift */; };
+		D058412F1C8794140010F24F /* ColorBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058412E1C8794140010F24F /* ColorBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D058411F1C878C410010F24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05841221C878C410010F24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D05841241C878C410010F24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D058412A1C878E0C0010F24F /* ColorBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBoxTableViewCell.swift; sourceTree = "<group>"; };
+		D058412C1C8792290010F24F /* ColorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorClient.swift; sourceTree = "<group>"; };
+		D058412E1C8794140010F24F /* ColorBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				D05841181C878C410010F24F /* AppDelegate.swift */,
 				D058411A1C878C410010F24F /* ViewController.swift */,
+				D058412A1C878E0C0010F24F /* ColorBoxTableViewCell.swift */,
+				D058412E1C8794140010F24F /* ColorBox.swift */,
+				D058412C1C8792290010F24F /* ColorClient.swift */,
 				D058411C1C878C410010F24F /* Main.storyboard */,
 				D058411F1C878C410010F24F /* Assets.xcassets */,
 				D05841211C878C410010F24F /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D058412F1C8794140010F24F /* ColorBox.swift in Sources */,
+				D058412B1C878E0D0010F24F /* ColorBoxTableViewCell.swift in Sources */,
 				D058411B1C878C410010F24F /* ViewController.swift in Sources */,
+				D058412D1C8792290010F24F /* ColorClient.swift in Sources */,
 				D05841191C878C410010F24F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
